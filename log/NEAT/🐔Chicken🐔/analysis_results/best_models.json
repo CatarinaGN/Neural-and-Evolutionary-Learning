@@ -1,0 +1,22 @@
+[
+    {
+        "pop_size": 100,
+        "activation_default": "tanh"
+    },
+    {
+        "pop_size": 100,
+        "activation_default": "tanh"
+    },
+    {
+        "pop_size": 100,
+        "activation_default": "tanh"
+    },
+    {
+        "pop_size": 100,
+        "activation_default": "tanh"
+    },
+    {
+        "pop_size": 50,
+        "activation_default": "tanh"
+    }
+]

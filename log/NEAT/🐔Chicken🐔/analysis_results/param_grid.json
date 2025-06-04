@@ -1,0 +1,10 @@
+{
+    "pop_size": [
+        50,
+        100
+    ],
+    "activation_default": [
+        "relu",
+        "tanh"
+    ]
+}
