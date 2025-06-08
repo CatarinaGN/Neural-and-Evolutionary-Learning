@@ -1,500 +1,500 @@
 
  ****** Running generation 0 ****** 
 
-Population's average fitness: -1.36472 stdev: 0.15292
-Best fitness: -0.94240 - size: (2, 27) - species 1 - id 90
-Average adjusted fitness: 0.306
-Mean genetic distance 2.486, standard deviation 0.536
-Population of 99 members in 5 species
+Population's average fitness: -1.37784 stdev: 0.16128
+Best fitness: -1.04235 - size: (2, 27) - species 1 - id 86
+Average adjusted fitness: 0.234
+Mean genetic distance 2.514, standard deviation 0.611
+Population of 100 members in 4 species
 Total extinctions: 0
-Generation time: 0.117 sec
+Generation time: 0.098 sec
 
  ****** Running generation 1 ****** 
 
-Population's average fitness: -1.25990 stdev: 0.17616
-Best fitness: -0.94240 - size: (2, 27) - species 2 - id 90
-Average adjusted fitness: 0.754
-Mean genetic distance 2.346, standard deviation 0.658
-Population of 100 members in 6 species
+Population's average fitness: -1.30458 stdev: 0.21913
+Best fitness: -1.03048 - size: (2, 15) - species 1 - id 121
+Average adjusted fitness: 0.774
+Mean genetic distance 2.382, standard deviation 0.549
+Population of 101 members in 4 species
 Total extinctions: 0
-Generation time: 0.112 sec (0.114 average)
+Generation time: 0.098 sec (0.098 average)
 
  ****** Running generation 2 ****** 
 
-Population's average fitness: -1.31430 stdev: 0.57170
-Best fitness: -0.94240 - size: (2, 27) - species 4 - id 90
-Average adjusted fitness: 0.910
-Mean genetic distance 2.466, standard deviation 0.605
-Population of 99 members in 6 species
+Population's average fitness: -1.33762 stdev: 0.61336
+Best fitness: -1.02953 - size: (4, 28) - species 1 - id 236
+Average adjusted fitness: 0.909
+Mean genetic distance 2.562, standard deviation 0.590
+Population of 101 members in 4 species
 Total extinctions: 0
-Generation time: 0.104 sec (0.111 average)
+Generation time: 0.099 sec (0.098 average)
 
  ****** Running generation 3 ****** 
 
-Population's average fitness: -1.38293 stdev: 1.68782
-Best fitness: -0.91711 - size: (5, 31) - species 4 - id 360
-Average adjusted fitness: 0.966
-Mean genetic distance 2.550, standard deviation 0.636
-Population of 99 members in 6 species
+Population's average fitness: -1.31434 stdev: 1.21043
+Best fitness: -1.02953 - size: (4, 28) - species 2 - id 236
+Average adjusted fitness: 0.941
+Mean genetic distance 2.436, standard deviation 0.611
+Population of 101 members in 4 species
 Total extinctions: 0
-Generation time: 0.108 sec (0.110 average)
+Generation time: 0.098 sec (0.098 average)
 
  ****** Running generation 4 ****** 
 
-Population's average fitness: -1.19069 stdev: 0.37058
-Best fitness: -0.87929 - size: (5, 30) - species 4 - id 452
-Average adjusted fitness: 0.862
-Mean genetic distance 2.671, standard deviation 0.648
-Population of 100 members in 6 species
+Population's average fitness: -1.31077 stdev: 1.08822
+Best fitness: -1.02953 - size: (4, 28) - species 2 - id 236
+Average adjusted fitness: 0.964
+Mean genetic distance 2.480, standard deviation 0.590
+Population of 101 members in 4 species
 Total extinctions: 0
-Generation time: 0.114 sec (0.111 average)
+Generation time: 0.098 sec (0.098 average)
 
  ****** Running generation 5 ****** 
 
-Population's average fitness: -1.38470 stdev: 0.93059
-Best fitness: -0.87929 - size: (5, 30) - species 2 - id 452
-Average adjusted fitness: 0.919
-Mean genetic distance 2.682, standard deviation 0.605
-Population of 100 members in 8 species
+Population's average fitness: -1.24246 stdev: 0.80264
+Best fitness: -1.02953 - size: (4, 28) - species 1 - id 236
+Average adjusted fitness: 0.975
+Mean genetic distance 2.634, standard deviation 0.534
+Population of 101 members in 5 species
 Total extinctions: 0
-Generation time: 0.109 sec (0.111 average)
+Generation time: 0.094 sec (0.097 average)
 
  ****** Running generation 6 ****** 
 
-Population's average fitness: -1.66459 stdev: 2.39821
-Best fitness: -0.87929 - size: (5, 30) - species 2 - id 452
-Average adjusted fitness: 0.900
-Mean genetic distance 2.800, standard deviation 0.605
-Population of 99 members in 8 species
+Population's average fitness: -1.16202 stdev: 0.34238
+Best fitness: -1.00873 - size: (4, 19) - species 2 - id 642
+Average adjusted fitness: 0.911
+Mean genetic distance 2.739, standard deviation 0.488
+Population of 100 members in 5 species
 Total extinctions: 0
-Generation time: 0.122 sec (0.112 average)
+Generation time: 0.095 sec (0.097 average)
 
  ****** Running generation 7 ****** 
 
-Population's average fitness: -1.56083 stdev: 2.36379
-Best fitness: -0.87929 - size: (5, 30) - species 2 - id 452
-Average adjusted fitness: 0.921
-Mean genetic distance 2.888, standard deviation 0.588
-Population of 99 members in 8 species
+Population's average fitness: -1.35249 stdev: 1.27608
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.966
+Mean genetic distance 2.754, standard deviation 0.501
+Population of 100 members in 6 species
 Total extinctions: 0
-Generation time: 0.119 sec (0.113 average)
+Generation time: 0.109 sec (0.099 average)
 
  ****** Running generation 8 ****** 
 
-Population's average fitness: -1.33739 stdev: 1.42807
-Best fitness: -0.87929 - size: (5, 30) - species 2 - id 452
-Average adjusted fitness: 0.927
-Mean genetic distance 2.878, standard deviation 0.560
-Population of 100 members in 8 species
+Population's average fitness: -1.79985 stdev: 4.25299
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.982
+Mean genetic distance 2.858, standard deviation 0.566
+Population of 99 members in 6 species
 Total extinctions: 0
-Generation time: 0.115 sec (0.113 average)
+Generation time: 0.100 sec (0.099 average)
 
  ****** Running generation 9 ****** 
 
-Population's average fitness: -1.14881 stdev: 0.54890
-Best fitness: -0.87929 - size: (5, 30) - species 2 - id 452
-Average adjusted fitness: 0.953
-Mean genetic distance 2.851, standard deviation 0.573
-Population of 100 members in 9 species
+Population's average fitness: -1.26986 stdev: 1.37042
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.980
+Mean genetic distance 2.796, standard deviation 0.584
+Population of 99 members in 6 species
 Total extinctions: 0
-Generation time: 0.116 sec (0.114 average)
+Generation time: 0.102 sec (0.099 average)
 
  ****** Running generation 10 ****** 
 
-Population's average fitness: -1.39455 stdev: 1.29122
-Best fitness: -0.87929 - size: (5, 30) - species 2 - id 452
-Average adjusted fitness: 0.953
-Mean genetic distance 2.941, standard deviation 0.599
-Population of 98 members in 10 species
+Population's average fitness: -1.20599 stdev: 0.95763
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.978
+Mean genetic distance 2.868, standard deviation 0.600
+Population of 99 members in 6 species
 Total extinctions: 0
-Generation time: 0.139 sec (0.116 average)
+Generation time: 0.107 sec (0.100 average)
 
  ****** Running generation 11 ****** 
 
-Population's average fitness: -1.18819 stdev: 0.46080
-Best fitness: -0.87929 - size: (5, 30) - species 2 - id 452
-Average adjusted fitness: 0.906
-Mean genetic distance 3.001, standard deviation 0.616
-Population of 101 members in 11 species
+Population's average fitness: -1.08456 stdev: 0.16790
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.943
+Mean genetic distance 2.869, standard deviation 0.621
+Population of 98 members in 6 species
 Total extinctions: 0
-Generation time: 0.119 sec (0.117 average)
+Generation time: 0.117 sec (0.102 average)
 
  ****** Running generation 12 ****** 
 
-Population's average fitness: -1.20194 stdev: 0.66657
-Best fitness: -0.87929 - size: (5, 30) - species 2 - id 452
-Average adjusted fitness: 0.934
-Mean genetic distance 3.001, standard deviation 0.622
-Population of 100 members in 11 species
+Population's average fitness: -1.24525 stdev: 1.25310
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.975
+Mean genetic distance 2.881, standard deviation 0.628
+Population of 100 members in 6 species
 Total extinctions: 0
-Generation time: 0.123 sec (0.119 average)
+Generation time: 0.113 sec (0.103 average)
 
  ****** Running generation 13 ****** 
 
-Population's average fitness: -1.50776 stdev: 1.46767
-Best fitness: -0.87929 - size: (5, 30) - species 2 - id 452
-Average adjusted fitness: 0.923
-Mean genetic distance 2.999, standard deviation 0.620
-Population of 98 members in 11 species
+Population's average fitness: -1.17916 stdev: 0.62315
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.966
+Mean genetic distance 2.900, standard deviation 0.633
+Population of 100 members in 6 species
 Total extinctions: 0
-Generation time: 0.129 sec (0.121 average)
+Generation time: 0.117 sec (0.105 average)
 
  ****** Running generation 14 ****** 
 
-Population's average fitness: -1.18631 stdev: 0.52072
-Best fitness: -0.87929 - size: (5, 30) - species 2 - id 452
-Average adjusted fitness: 0.935
-Mean genetic distance 2.984, standard deviation 0.592
-Population of 98 members in 11 species
+Population's average fitness: -1.22838 stdev: 0.84762
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.962
+Mean genetic distance 2.890, standard deviation 0.625
+Population of 101 members in 6 species
 Total extinctions: 0
-Generation time: 0.125 sec (0.122 average)
+Generation time: 0.180 sec (0.113 average)
 
  ****** Running generation 15 ****** 
 
-Population's average fitness: -1.11718 stdev: 0.28138
-Best fitness: -0.87798 - size: (5, 30) - species 2 - id 1357
-Average adjusted fitness: 0.903
-Mean genetic distance 2.935, standard deviation 0.618
-Population of 99 members in 11 species
+Population's average fitness: -1.28125 stdev: 1.72431
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.984
+Mean genetic distance 2.923, standard deviation 0.594
+Population of 99 members in 6 species
 Total extinctions: 0
-Generation time: 0.127 sec (0.124 average)
+Generation time: 0.131 sec (0.117 average)
 
  ****** Running generation 16 ****** 
 
-Population's average fitness: -1.18287 stdev: 0.54161
-Best fitness: -0.87798 - size: (5, 30) - species 2 - id 1357
-Average adjusted fitness: 0.940
-Mean genetic distance 2.969, standard deviation 0.623
-Population of 99 members in 11 species
+Population's average fitness: -1.21978 stdev: 1.23837
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.984
+Mean genetic distance 2.916, standard deviation 0.565
+Population of 100 members in 6 species
 Total extinctions: 0
-Generation time: 0.123 sec (0.124 average)
+Generation time: 0.509 sec (0.159 average)
 
  ****** Running generation 17 ****** 
 
-Population's average fitness: -1.10489 stdev: 0.19493
-Best fitness: -0.87798 - size: (5, 30) - species 2 - id 1357
-Average adjusted fitness: 0.792
-Mean genetic distance 2.967, standard deviation 0.610
-Population of 100 members in 11 species
+Population's average fitness: -1.22004 stdev: 0.52119
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.937
+Mean genetic distance 2.835, standard deviation 0.539
+Population of 102 members in 6 species
 Total extinctions: 0
-Generation time: 0.123 sec (0.124 average)
+Generation time: 0.124 sec (0.160 average)
 
  ****** Running generation 18 ****** 
 
-Population's average fitness: -1.23297 stdev: 0.72249
-Best fitness: -0.87798 - size: (5, 30) - species 2 - id 1357
-Average adjusted fitness: 0.927
-Mean genetic distance 2.957, standard deviation 0.605
-Population of 101 members in 11 species
+Population's average fitness: -1.32482 stdev: 1.21355
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.970
+Mean genetic distance 2.789, standard deviation 0.619
+Population of 100 members in 6 species
 Total extinctions: 0
-Generation time: 0.134 sec (0.126 average)
+Generation time: 0.144 sec (0.164 average)
 
  ****** Running generation 19 ****** 
 
-Population's average fitness: -1.20635 stdev: 0.51814
-Best fitness: -0.87362 - size: (5, 29) - species 2 - id 1664
-Average adjusted fitness: 0.894
-Mean genetic distance 2.960, standard deviation 0.606
-Population of 95 members in 11 species
+Population's average fitness: -1.10315 stdev: 0.32567
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.972
+Mean genetic distance 2.804, standard deviation 0.610
+Population of 99 members in 6 species
 Total extinctions: 0
-Generation time: 0.133 sec (0.128 average)
+Generation time: 0.143 sec (0.169 average)
 
  ****** Running generation 20 ****** 
 
-Population's average fitness: -1.33459 stdev: 1.29127
-Best fitness: -0.87362 - size: (5, 29) - species 2 - id 1664
-Average adjusted fitness: 0.942
-Mean genetic distance 2.910, standard deviation 0.666
-Population of 103 members in 10 species
+Population's average fitness: -1.29277 stdev: 1.14243
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.967
+Mean genetic distance 2.771, standard deviation 0.649
+Population of 100 members in 6 species
 Total extinctions: 0
-Generation time: 0.124 sec (0.126 average)
+Generation time: 0.150 sec (0.173 average)
 
  ****** Running generation 21 ****** 
 
-Population's average fitness: -1.27832 stdev: 1.09406
-Best fitness: -0.87362 - size: (5, 29) - species 2 - id 1664
-Average adjusted fitness: 0.952
-Mean genetic distance 2.918, standard deviation 0.644
-Population of 100 members in 10 species
+Population's average fitness: -1.14455 stdev: 0.39815
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.954
+Mean genetic distance 2.789, standard deviation 0.647
+Population of 98 members in 6 species
 Total extinctions: 0
-Generation time: 0.130 sec (0.127 average)
+Generation time: 0.143 sec (0.175 average)
 
  ****** Running generation 22 ****** 
 
-Population's average fitness: -1.16259 stdev: 0.40391
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.889
-Mean genetic distance 2.913, standard deviation 0.614
-Population of 100 members in 10 species
+Population's average fitness: -1.26298 stdev: 1.75028
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.985
+Mean genetic distance 2.721, standard deviation 0.661
+Population of 99 members in 6 species
 Total extinctions: 0
-Generation time: 0.126 sec (0.128 average)
+Generation time: 0.140 sec (0.178 average)
 
  ****** Running generation 23 ****** 
 
-Population's average fitness: -1.26332 stdev: 0.86443
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.938
-Mean genetic distance 2.887, standard deviation 0.653
-Population of 98 members in 10 species
+Population's average fitness: -1.19398 stdev: 0.60482
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.946
+Mean genetic distance 2.773, standard deviation 0.646
+Population of 99 members in 6 species
 Total extinctions: 0
-Generation time: 0.126 sec (0.127 average)
+Generation time: 0.150 sec (0.181 average)
 
  ****** Running generation 24 ****** 
 
-Population's average fitness: -1.25358 stdev: 0.94948
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.948
-Mean genetic distance 2.949, standard deviation 0.672
-Population of 104 members in 9 species
+Population's average fitness: -1.75684 stdev: 4.13180
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.978
+Mean genetic distance 2.774, standard deviation 0.638
+Population of 99 members in 6 species
 Total extinctions: 0
-Generation time: 0.124 sec (0.127 average)
+Generation time: 0.149 sec (0.178 average)
 
  ****** Running generation 25 ****** 
 
-Population's average fitness: -1.18307 stdev: 0.61067
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.938
-Mean genetic distance 2.988, standard deviation 0.688
-Population of 99 members in 8 species
+Population's average fitness: -1.27036 stdev: 0.83176
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.954
+Mean genetic distance 2.752, standard deviation 0.634
+Population of 101 members in 6 species
 Total extinctions: 0
-Generation time: 0.137 sec (0.128 average)
+Generation time: 0.151 sec (0.180 average)
 
  ****** Running generation 26 ****** 
 
-Population's average fitness: -1.26360 stdev: 0.96637
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.951
-Mean genetic distance 2.981, standard deviation 0.692
-Population of 99 members in 8 species
+Population's average fitness: -1.08470 stdev: 0.11110
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.453
+Mean genetic distance 2.796, standard deviation 0.615
+Population of 101 members in 6 species
 Total extinctions: 0
-Generation time: 0.135 sec (0.129 average)
+Generation time: 0.159 sec (0.145 average)
 
  ****** Running generation 27 ****** 
 
-Population's average fitness: -1.22711 stdev: 0.63811
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.898
-Mean genetic distance 2.976, standard deviation 0.667
-Population of 102 members in 7 species
+Population's average fitness: -1.17422 stdev: 0.50857
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.963
+Mean genetic distance 2.817, standard deviation 0.645
+Population of 101 members in 6 species
 Total extinctions: 0
-Generation time: 0.141 sec (0.131 average)
+Generation time: 0.167 sec (0.150 average)
 
  ****** Running generation 28 ****** 
 
-Population's average fitness: -1.28921 stdev: 0.73152
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.909
-Mean genetic distance 2.936, standard deviation 0.693
-Population of 101 members in 7 species
+Population's average fitness: -1.33405 stdev: 1.22224
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.962
+Mean genetic distance 2.798, standard deviation 0.695
+Population of 101 members in 6 species
 Total extinctions: 0
-Generation time: 0.146 sec (0.132 average)
+Generation time: 0.161 sec (0.151 average)
 
  ****** Running generation 29 ****** 
 
-Population's average fitness: -1.29459 stdev: 1.19239
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.959
-Mean genetic distance 2.916, standard deviation 0.692
-Population of 100 members in 7 species
+Population's average fitness: -1.20781 stdev: 0.97875
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.979
+Mean genetic distance 2.770, standard deviation 0.691
+Population of 99 members in 6 species
 Total extinctions: 0
-Generation time: 0.141 sec (0.133 average)
+Generation time: 0.155 sec (0.152 average)
 
  ****** Running generation 30 ****** 
 
-Population's average fitness: -1.24625 stdev: 0.67839
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.910
-Mean genetic distance 2.924, standard deviation 0.686
-Population of 97 members in 7 species
+Population's average fitness: -1.29645 stdev: 1.24697
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.973
+Mean genetic distance 2.725, standard deviation 0.700
+Population of 99 members in 6 species
 Total extinctions: 0
-Generation time: 0.134 sec (0.134 average)
+Generation time: 0.159 sec (0.153 average)
 
  ****** Running generation 31 ****** 
 
-Population's average fitness: -1.28782 stdev: 0.65588
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.879
-Mean genetic distance 2.916, standard deviation 0.689
-Population of 100 members in 7 species
+Population's average fitness: -1.12814 stdev: 0.27697
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.935
+Mean genetic distance 2.782, standard deviation 0.704
+Population of 101 members in 6 species
 Total extinctions: 0
-Generation time: 0.143 sec (0.135 average)
+Generation time: 0.158 sec (0.155 average)
 
  ****** Running generation 32 ****** 
 
-Population's average fitness: -1.25596 stdev: 0.70718
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.909
-Mean genetic distance 2.885, standard deviation 0.753
-Population of 101 members in 7 species
+Population's average fitness: -1.21279 stdev: 0.92327
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.977
+Mean genetic distance 2.820, standard deviation 0.685
+Population of 99 members in 6 species
 Total extinctions: 0
-Generation time: 0.139 sec (0.137 average)
+Generation time: 0.162 sec (0.157 average)
 
  ****** Running generation 33 ****** 
 
-Population's average fitness: -1.27616 stdev: 0.74919
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.914
-Mean genetic distance 2.902, standard deviation 0.737
-Population of 100 members in 7 species
+Population's average fitness: -1.23503 stdev: 1.34910
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.982
+Mean genetic distance 2.817, standard deviation 0.687
+Population of 101 members in 6 species
 Total extinctions: 0
-Generation time: 0.150 sec (0.139 average)
+Generation time: 0.168 sec (0.159 average)
 
  ****** Running generation 34 ****** 
 
-Population's average fitness: -1.21502 stdev: 0.53764
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.914
-Mean genetic distance 2.913, standard deviation 0.723
-Population of 99 members in 7 species
+Population's average fitness: -1.20710 stdev: 0.81547
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.975
+Mean genetic distance 2.822, standard deviation 0.729
+Population of 98 members in 6 species
 Total extinctions: 0
-Generation time: 0.151 sec (0.142 average)
+Generation time: 0.166 sec (0.161 average)
 
  ****** Running generation 35 ****** 
 
-Population's average fitness: -1.44989 stdev: 1.65252
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.948
-Mean genetic distance 2.877, standard deviation 0.732
-Population of 98 members in 7 species
+Population's average fitness: -1.19158 stdev: 1.18569
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.985
+Mean genetic distance 2.802, standard deviation 0.725
+Population of 102 members in 6 species
 Total extinctions: 0
-Generation time: 0.146 sec (0.143 average)
+Generation time: 0.161 sec (0.162 average)
 
  ****** Running generation 36 ****** 
 
-Population's average fitness: -1.21429 stdev: 0.85511
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.944
-Mean genetic distance 2.877, standard deviation 0.806
-Population of 98 members in 6 species
+Population's average fitness: -1.28987 stdev: 1.04268
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.961
+Mean genetic distance 2.819, standard deviation 0.712
+Population of 102 members in 6 species
 Total extinctions: 0
-Generation time: 0.145 sec (0.144 average)
+Generation time: 0.185 sec (0.164 average)
 
  ****** Running generation 37 ****** 
 
-Population's average fitness: -1.55331 stdev: 2.39074
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.965
-Mean genetic distance 2.881, standard deviation 0.799
-Population of 98 members in 6 species
+Population's average fitness: -1.13958 stdev: 0.41884
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.958
+Mean genetic distance 2.829, standard deviation 0.713
+Population of 102 members in 6 species
 Total extinctions: 0
-Generation time: 0.153 sec (0.145 average)
+Generation time: 0.166 sec (0.164 average)
 
  ****** Running generation 38 ****** 
 
-Population's average fitness: -1.42412 stdev: 1.71684
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
+Population's average fitness: -1.15588 stdev: 0.46769
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
 Average adjusted fitness: 0.957
-Mean genetic distance 2.877, standard deviation 0.792
-Population of 102 members in 6 species
+Mean genetic distance 2.821, standard deviation 0.726
+Population of 101 members in 6 species
 Total extinctions: 0
-Generation time: 0.158 sec (0.146 average)
+Generation time: 0.169 sec (0.165 average)
 
  ****** Running generation 39 ****** 
 
-Population's average fitness: -1.39951 stdev: 1.34999
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.952
-Mean genetic distance 2.893, standard deviation 0.771
-Population of 100 members in 6 species
+Population's average fitness: -1.07342 stdev: 0.10365
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.462
+Mean genetic distance 2.823, standard deviation 0.693
+Population of 101 members in 6 species
 Total extinctions: 0
-Generation time: 0.162 sec (0.148 average)
+Generation time: 0.164 sec (0.166 average)
 
  ****** Running generation 40 ****** 
 
-Population's average fitness: -1.33787 stdev: 0.79196
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.902
-Mean genetic distance 2.898, standard deviation 0.724
-Population of 100 members in 6 species
+Population's average fitness: -1.16958 stdev: 0.90596
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.983
+Mean genetic distance 2.819, standard deviation 0.696
+Population of 98 members in 6 species
 Total extinctions: 0
-Generation time: 0.154 sec (0.150 average)
+Generation time: 0.172 sec (0.167 average)
 
  ****** Running generation 41 ****** 
 
-Population's average fitness: -1.41442 stdev: 1.12043
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.942
-Mean genetic distance 2.912, standard deviation 0.720
+Population's average fitness: -1.46718 stdev: 2.13254
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.973
+Mean genetic distance 2.847, standard deviation 0.701
 Population of 100 members in 6 species
 Total extinctions: 0
-Generation time: 0.157 sec (0.152 average)
+Generation time: 0.170 sec (0.168 average)
 
  ****** Running generation 42 ****** 
 
-Population's average fitness: -1.27017 stdev: 0.73773
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.914
-Mean genetic distance 2.856, standard deviation 0.766
+Population's average fitness: -1.24625 stdev: 1.41287
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.982
+Mean genetic distance 2.838, standard deviation 0.710
 Population of 100 members in 6 species
 Total extinctions: 0
-Generation time: 0.156 sec (0.153 average)
+Generation time: 0.165 sec (0.169 average)
 
  ****** Running generation 43 ****** 
 
-Population's average fitness: -1.38424 stdev: 0.90814
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.911
-Mean genetic distance 2.871, standard deviation 0.773
+Population's average fitness: -1.21490 stdev: 1.00689
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.978
+Mean genetic distance 2.859, standard deviation 0.710
 Population of 98 members in 6 species
 Total extinctions: 0
-Generation time: 0.154 sec (0.154 average)
+Generation time: 0.163 sec (0.168 average)
 
  ****** Running generation 44 ****** 
 
-Population's average fitness: -1.31559 stdev: 0.80461
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.929
-Mean genetic distance 2.758, standard deviation 0.819
-Population of 101 members in 5 species
+Population's average fitness: -2.12486 stdev: 8.36861
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.986
+Mean genetic distance 2.841, standard deviation 0.723
+Population of 98 members in 6 species
 Total extinctions: 0
-Generation time: 0.152 sec (0.154 average)
+Generation time: 0.168 sec (0.168 average)
 
  ****** Running generation 45 ****** 
 
-Population's average fitness: -1.31089 stdev: 1.23357
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.955
-Mean genetic distance 2.800, standard deviation 0.804
-Population of 100 members in 5 species
+Population's average fitness: -1.29297 stdev: 1.21694
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.975
+Mean genetic distance 2.834, standard deviation 0.746
+Population of 98 members in 6 species
 Total extinctions: 0
-Generation time: 0.156 sec (0.155 average)
+Generation time: 0.163 sec (0.169 average)
 
  ****** Running generation 46 ****** 
 
-Population's average fitness: -1.24495 stdev: 0.58219
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.900
-Mean genetic distance 2.792, standard deviation 0.835
-Population of 101 members in 5 species
+Population's average fitness: -1.10952 stdev: 0.35120
+Best fitness: -1.00873 - size: (4, 19) - species 5 - id 642
+Average adjusted fitness: 0.970
+Mean genetic distance 2.861, standard deviation 0.734
+Population of 98 members in 6 species
 Total extinctions: 0
-Generation time: 0.149 sec (0.155 average)
+Generation time: 0.159 sec (0.166 average)
 
  ****** Running generation 47 ****** 
 
-Population's average fitness: -1.36544 stdev: 1.16356
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.942
-Mean genetic distance 2.795, standard deviation 0.816
-Population of 98 members in 5 species
+Population's average fitness: -1.09310 stdev: 0.12326
+Best fitness: -1.00694 - size: (11, 38) - species 3 - id 4228
+Average adjusted fitness: 0.431
+Mean genetic distance 2.732, standard deviation 0.763
+Population of 100 members in 5 species
 Total extinctions: 0
-Generation time: 0.149 sec (0.155 average)
+Generation time: 0.160 sec (0.165 average)
 
  ****** Running generation 48 ****** 
 
-Population's average fitness: -1.23974 stdev: 0.61055
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.922
-Mean genetic distance 2.798, standard deviation 0.849
-Population of 101 members in 5 species
+Population's average fitness: -1.11793 stdev: 0.29778
+Best fitness: -1.00694 - size: (11, 38) - species 3 - id 4228
+Average adjusted fitness: 0.959
+Mean genetic distance 2.777, standard deviation 0.723
+Population of 99 members in 5 species
 Total extinctions: 0
-Generation time: 0.146 sec (0.154 average)
+Generation time: 0.156 sec (0.164 average)
 
  ****** Running generation 49 ****** 
 
-Population's average fitness: -1.25916 stdev: 0.60453
-Best fitness: -0.85290 - size: (5, 17) - species 2 - id 1900
-Average adjusted fitness: 0.921
-Mean genetic distance 2.796, standard deviation 0.854
-Population of 98 members in 5 species
+Population's average fitness: -1.16909 stdev: 0.66506
+Best fitness: -1.00694 - size: (11, 38) - species 3 - id 4228
+Average adjusted fitness: 0.975
+Mean genetic distance 2.761, standard deviation 0.757
+Population of 102 members in 5 species
 Total extinctions: 0
-Generation time: 0.152 sec (0.153 average)
+Generation time: 0.155 sec (0.163 average)
