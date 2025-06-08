@@ -88,7 +88,7 @@ def nested_cv_gp_slim_gsgp(X, y, param_grid, k_outer=5, k_inner=3, dataset_name=
                 }
 
                 # Class-specific additions
-                if 'SLIM' in str(gp_class.__name__):
+                if 'slim' in str(gp_class.__name__):
                     gp_config.update({
                         'max_depth': flat_config['sspace.max_init_depth'] + 6,
                         'ms_lower': flat_config['ms_lower'],
@@ -105,8 +105,6 @@ def nested_cv_gp_slim_gsgp(X, y, param_grid, k_outer=5, k_inner=3, dataset_name=
                         'reconstruct': flat_config['reconstruct'],
                         'xo_prob': flat_config.get('xo_prob', 0.5)  # Default if not specified
                     })
-
-                    print('gsgp')
                 else:  # Standard GP
                     gp_config.update({
                         'max_depth': flat_config['sspace.max_depth'],
@@ -148,7 +146,7 @@ def nested_cv_gp_slim_gsgp(X, y, param_grid, k_outer=5, k_inner=3, dataset_name=
                             'prob_const': gp_config['sspace']['p_constants'],
                             'initializer': gp_config['initializer'],
 
-                            # SLIM instance
+                            # slim instance
                             'pop_size': gp_config['pop_size'],
                             'tournament_size': 2,
 
@@ -163,7 +161,7 @@ def nested_cv_gp_slim_gsgp(X, y, param_grid, k_outer=5, k_inner=3, dataset_name=
                             'seed': gp_config['seed']}
 
                         # === Class-Specific Parameters === #
-                        if 'SLIM' in str(gp_class.__name__):
+                        if 'slim' in str(gp_class.__name__):
                             model_params.update({
                                 'max_depth': gp_config['max_depth'], 
                                 'ms_lower': gp_config['ms_lower'],
@@ -314,7 +312,7 @@ def nested_cv_gp_slim_gsgp(X, y, param_grid, k_outer=5, k_inner=3, dataset_name=
                 'prob_const': best_config['sspace']['p_constants'],
                 'initializer': best_config['initializer'],
 
-                # SLIM instance
+                # slim instance
                 'pop_size': best_config['pop_size'],
                 'tournament_size': 2,
 
@@ -331,7 +329,7 @@ def nested_cv_gp_slim_gsgp(X, y, param_grid, k_outer=5, k_inner=3, dataset_name=
             }
 
             # === Class-Specific Parameters === #
-            if 'SLIM' in str(gp_class.__name__):
+            if 'slim' in str(gp_class.__name__):
                 model_params.update({
                     'max_depth': best_config['max_depth'], 
                     'ms_lower': best_config['ms_lower'],
