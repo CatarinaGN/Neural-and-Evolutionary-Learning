@@ -1,7 +1,5 @@
-def nested_cv_gp_slim_gsgp(
-    X, y, param_grid, k_outer=5, k_inner=3, dataset_name="Chicken", 
-    gp_class=None, seed=42, alpha_sig=0.05
-):
+def nested_cv_gp_slim_gsgp(X, y, param_grid, k_outer=5, k_inner=3, dataset_name="Chicken", gp_class=None, seed=42, alpha_sig=0.05):
+
     # === Imports === #
     import os
     import gc
@@ -46,8 +44,7 @@ def nested_cv_gp_slim_gsgp(
                 'y_outer_train': y_outer_train,
                 'X_test': X_test,
                 'y_test': y_test,
-                'inner_splits': inner_splits,
-            }
+                'inner_splits': inner_splits}
 
     # === Initial Setup === #
     X = X.reset_index(drop=True)
@@ -60,7 +57,7 @@ def nested_cv_gp_slim_gsgp(
 
     # === Logging Setup === #
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')  
-    os.makedirs(f"./log/SLIM/{timestamp}/", exist_ok=True)
+    #os.makedirs(f"./log/{gp_class}/{timestamp}/", exist_ok=True)
 
     # === Parameter Generation === #
     keys, values = zip(*param_grid.items())
@@ -84,17 +81,16 @@ def nested_cv_gp_slim_gsgp(
                         'p_constants': flat_config['sspace.p_constants'],
                         'max_init_depth': flat_config['sspace.max_init_depth'],
                         'tree_constants': flat_config['sspace.tree_constants'],
-                        'max_depth': flat_config['sspace.max_init_depth'] + 6
                     },
                     'pop_size': flat_config['pop_size'],
                     'generations': flat_config['generations'],
-                    'seed': seed,
-                    'original_config_id': config_id
+                    'seed': seed
                 }
 
                 # Class-specific additions
                 if 'SLIM' in str(gp_class.__name__):
                     gp_config.update({
+                        'max_depth': flat_config['sspace.max_init_depth'] + 6,
                         'ms_lower': flat_config['ms_lower'],
                         'ms_upper': flat_config['ms_upper'],
                         'reconstruct': flat_config['reconstruct'],
@@ -111,6 +107,7 @@ def nested_cv_gp_slim_gsgp(
                     })
                 else:  # Standard GP
                     gp_config.update({
+                        'max_depth': flat_config['sspace.max_depth'],
                         'xo_prob': flat_config.get('xo_prob', 0.5)  # Default if not specified
                     })
 
@@ -161,9 +158,7 @@ def nested_cv_gp_slim_gsgp(
                             'log_level': 0,
                             'verbose': 0,
                             'n_jobs': 1,
-                            'seed': gp_config['seed']
-                            
-                        }
+                            'seed': gp_config['seed']}
 
                         # === Class-Specific Parameters === #
                         if 'SLIM' in str(gp_class.__name__):
@@ -178,7 +173,6 @@ def nested_cv_gp_slim_gsgp(
                             })
                         elif 'GSGP' in str(gp_class.__name__):
                             model_params.update({
-                                'tournament_size': 2,
                                 'ms_lower': gp_config['ms_lower'],
                                 'ms_upper': gp_config['ms_upper'],
                                 'reconstruct': gp_config['reconstruct'],
@@ -186,8 +180,7 @@ def nested_cv_gp_slim_gsgp(
                             })
                         else:  # Standard GP
                             model_params.update({
-                                'max_depth': gp_config['sspace']['max_depth'],
-                                'tournament_size': 2,
+                                'max_depth': gp_config['max_depth'],
                                 'p_xo': gp_config.get('xo_prob', 0.5)  # Default if not in config
                             })
 
@@ -197,9 +190,11 @@ def nested_cv_gp_slim_gsgp(
                         # === Evaluation === #
                         with torch.no_grad():
                             y_pred_scaled = model.predict(X_val_tensor).numpy()
-                            #            
+
+                            y_true_scaled = y_val_tensor.numpy()
+
                             y_pred = safe_inverse_transform(y_scaler, y_pred_scaled)
-                            y_true = safe_inverse_transform(y_scaler, y_val_scaled)
+                            y_true = safe_inverse_transform(y_scaler, y_true_scaled)
 
                             rmse = np.sqrt(mean_squared_error(y_true, y_pred))
 
@@ -224,7 +219,6 @@ def nested_cv_gp_slim_gsgp(
                 if avg_val_rmse < best_val_score:
                     best_val_score = avg_val_rmse
                     best_config = gp_config
-                    current_fold_scalers = (x_scaler, y_scaler)  
 
             except Exception as e:
                 print(f"Error in config {config_id}: {str(e)}")
@@ -234,9 +228,6 @@ def nested_cv_gp_slim_gsgp(
         print(best_config)
         print(f"Best inner RMSE: {best_val_score:.4f}")
         best_grid_models.append(best_config)
-
-        # === Store Best Scalers === #
-        best_scalers[fold_idx] = current_fold_scalers  ### MODIFIED
 
         # === Statistical Tests === #
         df_inner_scores = pd.DataFrame(all_inner_fold_scores).T
@@ -294,15 +285,12 @@ def nested_cv_gp_slim_gsgp(
 
         # === Outer Evaluation === #
         try:
-            x_scaler, y_scaler = best_scalers[fold_idx]  ### MODIFIED: Reuse best scalers
-            X_outer_train_scaled = x_scaler.transform(fold_data['X_outer_train'])  ### MODIFIED: No refit
+            x_scaler = RobustScaler()
+            y_scaler = RobustScaler()
+            X_outer_train_scaled = x_scaler.fit_transform(fold_data['X_outer_train'])
             X_test_scaled = x_scaler.transform(fold_data['X_test'])
-            y_outer_train_scaled = y_scaler.transform(
-                fold_data['y_outer_train'].values.reshape(-1, 1)
-            ).flatten()
-            y_test_scaled = y_scaler.transform(
-                fold_data['y_test'].values.reshape(-1, 1)
-            ).flatten()
+            y_outer_train_scaled = y_scaler.fit_transform(fold_data['y_outer_train'].values.reshape(-1, 1)).flatten()
+            y_test_scaled = y_scaler.transform(fold_data['y_test'].values.reshape(-1, 1)).flatten()
 
             X_outer_train_tensor = torch.tensor(X_outer_train_scaled, dtype=torch.float32)
             y_outer_train_tensor = torch.tensor(y_outer_train_scaled, dtype=torch.float32)
@@ -343,7 +331,7 @@ def nested_cv_gp_slim_gsgp(
             # === Class-Specific Parameters === #
             if 'SLIM' in str(gp_class.__name__):
                 model_params.update({
-                    'max_depth': best_config['sspace']['max_depth'], 
+                    'max_depth': best_config['max_depth'], 
                     'ms_lower': best_config['ms_lower'],
                     'ms_upper': best_config['ms_upper'],
                     'reconstruct': best_config['reconstruct'],
@@ -361,7 +349,7 @@ def nested_cv_gp_slim_gsgp(
                 })
             else:  # Standard GP
                 model_params.update({
-                    'max_depth': best_config['sspace']['max_depth'],
+                    'max_depth': best_config['max_depth'],
                     'tournament_size': 2,
                     'p_xo': best_config.get('xo_prob', 0.5)  # Default if not in config
                 })
